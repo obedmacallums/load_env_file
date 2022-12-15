@@ -1,1 +1,8 @@
-# load_env_file
+# Load environment file
+
+file : .env
+
+bash command:
+
+export $(xargs < .env)
+
